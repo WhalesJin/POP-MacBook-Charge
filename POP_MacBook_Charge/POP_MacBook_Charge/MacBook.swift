@@ -14,6 +14,6 @@ struct MacBook {
     func chargeBattery(charger: Chargeable) {
         // 충전기를 활용해 배터리를 완전히 충전한 뒤 충전에 걸린 시간을 print
         let chargeTime = (maximumBattery - currentBattery) / charger.maximumWattPerHour
-        print(chargeTime)
+        print("배터리 충전이 완료되었습니다. 총 충전시간은 \(chargeTime)시간입니다."
     }
 }
