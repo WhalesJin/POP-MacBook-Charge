@@ -10,7 +10,11 @@
 		3C93CE7A2A621AE00083E706 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93CE792A621AE00083E706 /* main.swift */; };
 		3C93CE812A621B1D0083E706 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93CE802A621B1D0083E706 /* Typealias.swift */; };
 		3C93CE852A621B6A0083E706 /* Chargeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93CE842A621B6A0083E706 /* Chargeable.swift */; };
+<<<<<<< HEAD
+		3C9F5F782A6224C300C11609 /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F772A6224C300C11609 /* Charger.swift */; };
+=======
 		3C9F5F762A62232D00C11609 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F5F752A62232D00C11609 /* MacBook.swift */; };
+>>>>>>> main
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +34,11 @@
 		3C93CE792A621AE00083E706 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C93CE802A621B1D0083E706 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		3C93CE842A621B6A0083E706 /* Chargeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargeable.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		3C9F5F772A6224C300C11609 /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
+=======
 		3C9F5F752A62232D00C11609 /* MacBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
+>>>>>>> main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +74,11 @@
 				3C93CE792A621AE00083E706 /* main.swift */,
 				3C93CE802A621B1D0083E706 /* Typealias.swift */,
 				3C93CE842A621B6A0083E706 /* Chargeable.swift */,
+<<<<<<< HEAD
+				3C9F5F772A6224C300C11609 /* Charger.swift */,
+=======
 				3C9F5F752A62232D00C11609 /* MacBook.swift */,
+>>>>>>> main
 			);
 			path = POP_MacBook_Charge;
 			sourceTree = "<group>";
@@ -129,7 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+				3C9F5F782A6224C300C11609 /* Charger.swift in Sources */,
+=======
 				3C9F5F762A62232D00C11609 /* MacBook.swift in Sources */,
+>>>>>>> main
 				3C93CE812A621B1D0083E706 /* Typealias.swift in Sources */,
 				3C93CE7A2A621AE00083E706 /* main.swift in Sources */,
 				3C93CE852A621B6A0083E706 /* Chargeable.swift in Sources */,
