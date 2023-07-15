@@ -12,7 +12,7 @@ protocol Chargeable {
 }
 
 extension Chargeable {
-    private func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour {
+    func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour {
         if chargeableWattPerHour < maximumWattPerHour {
             return chargeableWattPerHour
         } else {
