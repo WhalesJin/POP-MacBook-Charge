@@ -6,7 +6,17 @@
 //
 
 protocol Chargeable {
-    let maximumWattPerHour: WattPerHour
+    var maximumWattPerHour: WattPerHour { get }
     
     func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour
+}
+
+extension Chargeable {
+    private func convert(chargeableWattPerHour: WattPerHour) -> WattPerHour {
+        if chargeableWattPerHour < maximumWattPerHour {
+            return chargeableWattPerHour
+        } else {
+            return maximumWattPerHour
+        }
+    }
 }
